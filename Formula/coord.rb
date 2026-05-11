@@ -8,7 +8,7 @@ class Coord < Formula
   desc "Local coordinator for parallel AI coding agents (MCP + A2A, atomic claims)"
   homepage "https://github.com/DmarshalTU/coord"
   license "MIT"
-  version "0.3.1"
+  version "0.4.0"
 
   # Pre-built binaries: Apple Silicon macOS and x86_64 Linux. On other
   # architectures, install from source:
@@ -16,14 +16,14 @@ class Coord < Formula
   on_macos do
     on_arm do
       url "https://github.com/DmarshalTU/coord/releases/download/v#{version}/coord-aarch64-apple-darwin"
-      sha256 "102bc0b0498fd86203982c2186fd30749b507ff9ed6ff6d0307291d081badce2"
+      sha256 "73fb4bb08f39ca6886a6eaf6d7abb3aeb166513109e4308adca700d7131069fd"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/DmarshalTU/coord/releases/download/v#{version}/coord-x86_64-unknown-linux-gnu"
-      sha256 "f9281cc0601488abd96e134f6fe8d0f39c46c2a7794860813a057f00c3c406a6"
+      sha256 "5a9d957883368bb695edbb0013d42c2633c08c46d498b79578f306a9fcca6f82"
     end
   end
 
